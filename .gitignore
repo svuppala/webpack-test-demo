@@ -1,0 +1,30 @@
+### Intellij ###
+/.idea/
+*.iml
+
+### Node ###
+# Logs
+npm-debug.log*
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directories
+/node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Yarn files
+yarn-error.log
+
+### OSX ###
+*.DS_Store
+
+### Build generated files ###
+/dist/
+/cypress/fixtures/
+/cypress/plugins/
+/cypress/support/
+/cypress/videos/
+/cypress/screenshots/
